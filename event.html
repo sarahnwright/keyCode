@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>EventKey</title>
+        <link rel="stylesheet"href = "style.css">
+    </head>
+    <body id="body">
+        <div style="text-align:center;margin-top: 100px; position: relative; text-decoration: darkslategrey; font-size: 100px;">
+        <p id ="mainWhich"><b></b><p>
+        </div>
+
+        <div class="container">
+            <div class="box box1"> event.key
+                <p id="eventKey"></p></div>
+            <div class="box box2"> event.which
+                <p id="eventWhich"></p></div>
+            <div class="box box3"> event.code
+                <p id ="eventCode"></p></div>
+                
+        </div>
+
+    </body>
+<script>
+        document.getElementById("body").addEventListener("keypress", function(event) {
+          let eventKey = event.key;
+          let eventWhich = event.which;
+          let eventCode = event.code;
+          document.getElementById("mainWhich").innerHTML = eventWhich;
+          document.getElementById("eventKey").innerHTML = eventKey;
+          document.getElementById("eventWhich").innerHTML = eventWhich;
+          document.getElementById("eventCode").innerHTML = eventCode;
+        });
+
+</script>
+</html>
