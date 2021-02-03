@@ -6,10 +6,12 @@
     text-align: center;
     padding: 15px;
 }
-.box1 {background: lightblue; margin-left: 33%; border-radius: 10px;}
-.box2 {background: lightblue;border-radius: 10px;}
-.box3 {background: lightblue; margin-right: 33%; border-radius: 10px;}
+.box1 {background: lightblue; position: relative; text-align: center; border-radius: 10px;}
+.box2 {background: lightblue;border-radius: 10px; margin-left: 10px; margin-right: 10px;position: relative; text-align: center;}
+.box3 {background: lightblue; position: relative; text-align: center; border-radius: 10px;}
 
 .container{
     display:flex;
+    align-items: center;
+    justify-content: center;
 }
