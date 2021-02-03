@@ -1,0 +1,17 @@
+*{box-sizing: border-box;}
+.box{
+    color:black;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+.box1 {background: lightblue; position: relative; text-align: center; border-radius: 10px;}
+.box2 {background: lightblue;border-radius: 10px; margin-left: 10px; margin-right: 10px;position: relative; text-align: center;}
+.box3 {background: lightblue; position: relative; text-align: center; border-radius: 10px;}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
