@@ -5,8 +5,8 @@
         <title>EventKey</title>
         <link rel="stylesheet"href = "style.css">
     </head>
-    <body id="body">
-        <div style="text-align:center;margin-top: 100px; position: relative; text-decoration: darkslategrey; font-size: 100px;">
+    <body id="body" style=color:gray;>
+        <div style="text-align:center;margin-top: 100px; position: relative; font-size: 100px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
         <p id ="mainWhich"><b></b><p>
         </div>
 
@@ -20,6 +20,10 @@
                 
         </div>
 
+        <div style="color: lightblue; font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align: center;position: relative;">
+            <p>press any key</p>
+        </div>
+
     </body>
 <script>
         document.getElementById("body").addEventListener("keypress", function(event) {
@@ -31,6 +35,5 @@
           document.getElementById("eventWhich").innerHTML = eventWhich;
           document.getElementById("eventCode").innerHTML = eventCode;
         });
-
 </script>
 </html>
